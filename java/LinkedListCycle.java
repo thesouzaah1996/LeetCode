@@ -2,6 +2,8 @@ public class LinkedListCycle {
 
     public boolean hasCycle(ListNode head) {
 
+        if (head == null) return false;
+
         ListNode slow = head;
         ListNode fast = head;
 
